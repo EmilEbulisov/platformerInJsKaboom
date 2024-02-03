@@ -6,6 +6,7 @@ kaboom({
 loadSprite('backLayer1', 'assets/background_layer_1.png')
 loadSprite('backLayer2', 'assets/background_layer_2.png')
 loadSprite('backLayer3', 'assets/background_layer_3.png')
+loadSprite('platform1', 'assets/platform.png')
 
 
 add([
@@ -40,4 +41,10 @@ add([
     fixed(),
     pos(1280, 0),
     scale(4)
+])
+add([
+    sprite('platform1'),
+    fixed(),
+    scale(4),
+    pos(1005,55)
 ])
